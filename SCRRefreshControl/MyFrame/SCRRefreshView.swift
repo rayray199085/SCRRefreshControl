@@ -32,7 +32,7 @@ class SCRRefreshView: UIView {
     }
     
     class func refreshView()->SCRRefreshView{
-        let nib = UINib(nibName: "SCRRefreshView", bundle: nil)
+        let nib = UINib(nibName: "SCRRefreshView", bundle: Bundle(for: SCRRefreshView.self))
         let v = nib.instantiate(withOwner: self, options: nil)[0] as! SCRRefreshView
         return v
     }
