@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SCRRefreshControl: NSObject {
+public class SCRRefreshControl: NSObject {
     
     override init() {
         super.init()
