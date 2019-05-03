@@ -14,7 +14,11 @@
 		0DD3539E227C55CC00AB37EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD3539C227C55CC00AB37EA /* LaunchScreen.storyboard */; };
 		0DD353A9227C55CC00AB37EA /* SCRRefreshControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353A8227C55CC00AB37EA /* SCRRefreshControlTests.swift */; };
 		0DD353B4227C55CC00AB37EA /* SCRRefreshControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353B3227C55CC00AB37EA /* SCRRefreshControlUITests.swift */; };
-		0DD353C6227C593C00AB37EA /* SCRRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353C5227C593C00AB37EA /* SCRRefreshControl.swift */; };
+		0DD35424227C654500AB37EA /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3541F227C654500AB37EA /* UIImageView+extension.swift */; };
+		0DD35425227C654500AB37EA /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DD35420227C654500AB37EA /* Resources.bundle */; };
+		0DD35426227C654500AB37EA /* SCRRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35421227C654500AB37EA /* SCRRefreshView.swift */; };
+		0DD35427227C654500AB37EA /* SCRRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35422227C654500AB37EA /* SCRRefreshControl.swift */; };
+		0DD35428227C654500AB37EA /* SCRRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD35423227C654500AB37EA /* SCRRefreshView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,11 @@
 		0DD353AF227C55CC00AB37EA /* SCRRefreshControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCRRefreshControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD353B3227C55CC00AB37EA /* SCRRefreshControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRRefreshControlUITests.swift; sourceTree = "<group>"; };
 		0DD353B5227C55CC00AB37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DD353C5227C593C00AB37EA /* SCRRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRRefreshControl.swift; sourceTree = "<group>"; };
+		0DD3541F227C654500AB37EA /* UIImageView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
+		0DD35420227C654500AB37EA /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		0DD35421227C654500AB37EA /* SCRRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRRefreshView.swift; sourceTree = "<group>"; };
+		0DD35422227C654500AB37EA /* SCRRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRRefreshControl.swift; sourceTree = "<group>"; };
+		0DD35423227C654500AB37EA /* SCRRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRRefreshView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +139,11 @@
 		0DD353C4227C591A00AB37EA /* MyFrame */ = {
 			isa = PBXGroup;
 			children = (
-				0DD353C5227C593C00AB37EA /* SCRRefreshControl.swift */,
+				0DD35422227C654500AB37EA /* SCRRefreshControl.swift */,
+				0DD35423227C654500AB37EA /* SCRRefreshView.xib */,
+				0DD35421227C654500AB37EA /* SCRRefreshView.swift */,
+				0DD3541F227C654500AB37EA /* UIImageView+extension.swift */,
+				0DD35420227C654500AB37EA /* Resources.bundle */,
 			);
 			path = MyFrame;
 			sourceTree = SOURCE_ROOT;
@@ -240,9 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD35428227C654500AB37EA /* SCRRefreshView.xib in Resources */,
 				0DD3539E227C55CC00AB37EA /* LaunchScreen.storyboard in Resources */,
 				0DD3539B227C55CC00AB37EA /* Assets.xcassets in Resources */,
 				0DD35399227C55CB00AB37EA /* Main.storyboard in Resources */,
+				0DD35425227C654500AB37EA /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD353C6227C593C00AB37EA /* SCRRefreshControl.swift in Sources */,
 				0DD35396227C55CB00AB37EA /* ViewController.swift in Sources */,
+				0DD35424227C654500AB37EA /* UIImageView+extension.swift in Sources */,
+				0DD35427227C654500AB37EA /* SCRRefreshControl.swift in Sources */,
+				0DD35426227C654500AB37EA /* SCRRefreshView.swift in Sources */,
 				0DD35394227C55CB00AB37EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
