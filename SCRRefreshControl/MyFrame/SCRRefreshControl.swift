@@ -10,10 +10,10 @@ import UIKit
 
 public class SCRRefreshControl: NSObject {
     
-    override init() {
+    public override init() {
         super.init()
     }
-    func sayHello(){
+    public func sayHello(){
         print("Hello World!")
     }
 }
