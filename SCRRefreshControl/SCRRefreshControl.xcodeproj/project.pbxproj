@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD35394227C55CB00AB37EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35393227C55CB00AB37EA /* AppDelegate.swift */; };
+		0DD35396227C55CB00AB37EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35395227C55CB00AB37EA /* ViewController.swift */; };
+		0DD35399227C55CB00AB37EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD35397227C55CB00AB37EA /* Main.storyboard */; };
+		0DD3539B227C55CC00AB37EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD3539A227C55CC00AB37EA /* Assets.xcassets */; };
+		0DD3539E227C55CC00AB37EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD3539C227C55CC00AB37EA /* LaunchScreen.storyboard */; };
+		0DD353A9227C55CC00AB37EA /* SCRRefreshControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353A8227C55CC00AB37EA /* SCRRefreshControlTests.swift */; };
+		0DD353B4227C55CC00AB37EA /* SCRRefreshControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353B3227C55CC00AB37EA /* SCRRefreshControlUITests.swift */; };
+		0DD353C3227C562200AB37EA /* SCRRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353C2227C562200AB37EA /* SCRRefreshControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD353A5227C55CC00AB37EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD35388227C55CA00AB37EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD3538F227C55CA00AB37EA;
+			remoteInfo = SCRRefreshControl;
+		};
+		0DD353B0227C55CC00AB37EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD35388227C55CA00AB37EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD3538F227C55CA00AB37EA;
+			remoteInfo = SCRRefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD35390227C55CB00AB37EA /* SCRRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCRRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD35393227C55CB00AB37EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DD35395227C55CB00AB37EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DD35398227C55CB00AB37EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DD3539A227C55CC00AB37EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DD3539D227C55CC00AB37EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DD3539F227C55CC00AB37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD353A4227C55CC00AB37EA /* SCRRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCRRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD353A8227C55CC00AB37EA /* SCRRefreshControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRRefreshControlTests.swift; sourceTree = "<group>"; };
+		0DD353AA227C55CC00AB37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD353AF227C55CC00AB37EA /* SCRRefreshControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCRRefreshControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD353B3227C55CC00AB37EA /* SCRRefreshControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRRefreshControlUITests.swift; sourceTree = "<group>"; };
+		0DD353B5227C55CC00AB37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD353C2227C562200AB37EA /* SCRRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRRefreshControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD3538D227C55CA00AB37EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD353A1227C55CC00AB37EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD353AC227C55CC00AB37EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD35387227C55CA00AB37EA = {
+			isa = PBXGroup;
+			children = (
+				0DD35392227C55CB00AB37EA /* SCRRefreshControl */,
+				0DD353A7227C55CC00AB37EA /* SCRRefreshControlTests */,
+				0DD353B2227C55CC00AB37EA /* SCRRefreshControlUITests */,
+				0DD35391227C55CB00AB37EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD35391227C55CB00AB37EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD35390227C55CB00AB37EA /* SCRRefreshControl.app */,
+				0DD353A4227C55CC00AB37EA /* SCRRefreshControlTests.xctest */,
+				0DD353AF227C55CC00AB37EA /* SCRRefreshControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD35392227C55CB00AB37EA /* SCRRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				0DD353C1227C55DA00AB37EA /* MyFrame */,
+				0DD35393227C55CB00AB37EA /* AppDelegate.swift */,
+				0DD35395227C55CB00AB37EA /* ViewController.swift */,
+				0DD35397227C55CB00AB37EA /* Main.storyboard */,
+				0DD3539A227C55CC00AB37EA /* Assets.xcassets */,
+				0DD3539C227C55CC00AB37EA /* LaunchScreen.storyboard */,
+				0DD3539F227C55CC00AB37EA /* Info.plist */,
+			);
+			path = SCRRefreshControl;
+			sourceTree = "<group>";
+		};
+		0DD353A7227C55CC00AB37EA /* SCRRefreshControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD353A8227C55CC00AB37EA /* SCRRefreshControlTests.swift */,
+				0DD353AA227C55CC00AB37EA /* Info.plist */,
+			);
+			path = SCRRefreshControlTests;
+			sourceTree = "<group>";
+		};
+		0DD353B2227C55CC00AB37EA /* SCRRefreshControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD353B3227C55CC00AB37EA /* SCRRefreshControlUITests.swift */,
+				0DD353B5227C55CC00AB37EA /* Info.plist */,
+			);
+			path = SCRRefreshControlUITests;
+			sourceTree = "<group>";
+		};
+		0DD353C1227C55DA00AB37EA /* MyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				0DD353C2227C562200AB37EA /* SCRRefreshControl.swift */,
+			);
+			path = MyFrame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD3538F227C55CA00AB37EA /* SCRRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD353B8227C55CC00AB37EA /* Build configuration list for PBXNativeTarget "SCRRefreshControl" */;
+			buildPhases = (
+				0DD3538C227C55CA00AB37EA /* Sources */,
+				0DD3538D227C55CA00AB37EA /* Frameworks */,
+				0DD3538E227C55CA00AB37EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCRRefreshControl;
+			productName = SCRRefreshControl;
+			productReference = 0DD35390227C55CB00AB37EA /* SCRRefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DD353A3227C55CC00AB37EA /* SCRRefreshControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD353BB227C55CC00AB37EA /* Build configuration list for PBXNativeTarget "SCRRefreshControlTests" */;
+			buildPhases = (
+				0DD353A0227C55CC00AB37EA /* Sources */,
+				0DD353A1227C55CC00AB37EA /* Frameworks */,
+				0DD353A2227C55CC00AB37EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD353A6227C55CC00AB37EA /* PBXTargetDependency */,
+			);
+			name = SCRRefreshControlTests;
+			productName = SCRRefreshControlTests;
+			productReference = 0DD353A4227C55CC00AB37EA /* SCRRefreshControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DD353AE227C55CC00AB37EA /* SCRRefreshControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD353BE227C55CC00AB37EA /* Build configuration list for PBXNativeTarget "SCRRefreshControlUITests" */;
+			buildPhases = (
+				0DD353AB227C55CC00AB37EA /* Sources */,
+				0DD353AC227C55CC00AB37EA /* Frameworks */,
+				0DD353AD227C55CC00AB37EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD353B1227C55CC00AB37EA /* PBXTargetDependency */,
+			);
+			name = SCRRefreshControlUITests;
+			productName = SCRRefreshControlUITests;
+			productReference = 0DD353AF227C55CC00AB37EA /* SCRRefreshControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD35388227C55CA00AB37EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Stephen Cao";
+				TargetAttributes = {
+					0DD3538F227C55CA00AB37EA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0DD353A3227C55CC00AB37EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0DD3538F227C55CA00AB37EA;
+					};
+					0DD353AE227C55CC00AB37EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0DD3538F227C55CA00AB37EA;
+					};
+				};
+			};
+			buildConfigurationList = 0DD3538B227C55CA00AB37EA /* Build configuration list for PBXProject "SCRRefreshControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DD35387227C55CA00AB37EA;
+			productRefGroup = 0DD35391227C55CB00AB37EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD3538F227C55CA00AB37EA /* SCRRefreshControl */,
+				0DD353A3227C55CC00AB37EA /* SCRRefreshControlTests */,
+				0DD353AE227C55CC00AB37EA /* SCRRefreshControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD3538E227C55CA00AB37EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD3539E227C55CC00AB37EA /* LaunchScreen.storyboard in Resources */,
+				0DD3539B227C55CC00AB37EA /* Assets.xcassets in Resources */,
+				0DD35399227C55CB00AB37EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD353A2227C55CC00AB37EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD353AD227C55CC00AB37EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD3538C227C55CA00AB37EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD353C3227C562200AB37EA /* SCRRefreshControl.swift in Sources */,
+				0DD35396227C55CB00AB37EA /* ViewController.swift in Sources */,
+				0DD35394227C55CB00AB37EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD353A0227C55CC00AB37EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD353A9227C55CC00AB37EA /* SCRRefreshControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD353AB227C55CC00AB37EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD353B4227C55CC00AB37EA /* SCRRefreshControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD353A6227C55CC00AB37EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD3538F227C55CA00AB37EA /* SCRRefreshControl */;
+			targetProxy = 0DD353A5227C55CC00AB37EA /* PBXContainerItemProxy */;
+		};
+		0DD353B1227C55CC00AB37EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD3538F227C55CA00AB37EA /* SCRRefreshControl */;
+			targetProxy = 0DD353B0227C55CC00AB37EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DD35397227C55CB00AB37EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD35398227C55CB00AB37EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DD3539C227C55CC00AB37EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD3539D227C55CC00AB37EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DD353B6227C55CC00AB37EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DD353B7227C55CC00AB37EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD353B9227C55CC00AB37EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCRRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephencao.project.SCRRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DD353BA227C55CC00AB37EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCRRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephencao.project.SCRRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DD353BC227C55CC00AB37EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCRRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephencao.project.SCRRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCRRefreshControl.app/SCRRefreshControl";
+			};
+			name = Debug;
+		};
+		0DD353BD227C55CC00AB37EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCRRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephencao.project.SCRRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCRRefreshControl.app/SCRRefreshControl";
+			};
+			name = Release;
+		};
+		0DD353BF227C55CC00AB37EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCRRefreshControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephencao.project.SCRRefreshControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCRRefreshControl;
+			};
+			name = Debug;
+		};
+		0DD353C0227C55CC00AB37EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SCRRefreshControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephencao.project.SCRRefreshControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SCRRefreshControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD3538B227C55CA00AB37EA /* Build configuration list for PBXProject "SCRRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD353B6227C55CC00AB37EA /* Debug */,
+				0DD353B7227C55CC00AB37EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD353B8227C55CC00AB37EA /* Build configuration list for PBXNativeTarget "SCRRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD353B9227C55CC00AB37EA /* Debug */,
+				0DD353BA227C55CC00AB37EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD353BB227C55CC00AB37EA /* Build configuration list for PBXNativeTarget "SCRRefreshControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD353BC227C55CC00AB37EA /* Debug */,
+				0DD353BD227C55CC00AB37EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD353BE227C55CC00AB37EA /* Build configuration list for PBXNativeTarget "SCRRefreshControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD353BF227C55CC00AB37EA /* Debug */,
+				0DD353C0227C55CC00AB37EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD35388227C55CA00AB37EA /* Project object */;
+}
