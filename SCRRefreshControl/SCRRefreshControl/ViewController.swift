@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    lazy var refreshControl = SCRRefreshControl()
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rc = SCRRefreshControl()
+        
+        tableView.addSubview(refreshControl)
+        refreshControl.addTarget(self, action: #selector(loadData), for: UIControl.Event.valueChanged)
+        loadData()
     }
-
-
+    @objc private func loadData(){
+        refreshControl.beginRefreshing()
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2.0) {
+            self.refreshControl.endRefreshing()
+        }
+    }
 }
 

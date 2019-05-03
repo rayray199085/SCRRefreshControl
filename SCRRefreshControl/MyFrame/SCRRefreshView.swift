@@ -33,7 +33,7 @@ class SCRRefreshView: UIView {
     
     class func refreshView()->SCRRefreshView{
         let nib = UINib(nibName: "SCRRefreshView", bundle: nil)
-        let v = nib.instantiate(withOwner: nil, options: nil)[0] as! SCRRefreshView
+        let v = nib.instantiate(withOwner: self, options: nil)[0] as! SCRRefreshView
         return v
     }
     override func awakeFromNib() {

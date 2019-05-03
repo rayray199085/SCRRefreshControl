@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SCRRefreshControl"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Custom Refresh Control"
   spec.homepage     = "https://github.com/rayray199085/SCRRefreshControl"
   spec.license      = "MIT"
@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "SCRRefreshControl", "SCRRefreshControl/MyFrame/**/*.{swift,xib}"
   spec.requires_arc = true
   spec.swift_version = '4.0'
+  spec.resources = "SCRRefreshControl/MyFrame/Resources.bundle"
 end
