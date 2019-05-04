@@ -37,13 +37,13 @@ class SCRRefreshView: UIView {
         return v
     }
     override func awakeFromNib() {
-        guard let resourcePath = Bundle.main.path(forResource: "Resources", ofType: "bundle"),
-            let resourceBundle = Bundle(path: resourcePath),
-              let imagePath = resourceBundle.path(forResource: "tableview_pull_refresh@2x", ofType: "png", inDirectory: "images"),
-              let image = UIImage(contentsOfFile: imagePath) else {
-                return
+        let frameworkBundle = Bundle(for: SCRRefreshView.self)
+        guard let bundlePath = frameworkBundle.path(forResource: "Resources", ofType: "bundle", inDirectory: nil),
+              let bundle = Bundle(path: bundlePath),
+              let imagePath = bundle.path(forResource: "tableview_pull_refresh@2x", ofType: "png", inDirectory: "images") else{
+            return
         }
-        arrowImageView.image = image
+        arrowImageView.image = UIImage(contentsOfFile: imagePath)
         arrowImageView.sizeToFit()
     }
 }
