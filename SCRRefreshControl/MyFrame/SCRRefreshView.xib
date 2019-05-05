@@ -12,26 +12,26 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SCRRefreshView" customModule="SCRRefreshControl" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="97" height="32"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SCRRefreshView" customModule="RefreshControlBackup" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="97" height="64"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tableview_pull_refresh.png" translatesAutoresizingMaskIntoConstraints="NO" id="bab-sy-Scm">
-                    <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="P7H-xX-f0C">
-                    <rect key="frame" x="6" y="6" width="20" height="20"/>
+                    <rect key="frame" x="6" y="22" width="20" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="color" red="0.93556267023086548" green="0.50204366445541382" blue="0.19182276725769043" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 </activityIndicatorView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pull down" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nG5-9g-bhi">
-                    <rect key="frame" x="34" y="8" width="63" height="17"/>
+                    <rect key="frame" x="34" y="24" width="63" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="0.93556267023086548" green="0.50204366445541382" blue="0.19182276725769043" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tableview_pull_refresh.png" translatesAutoresizingMaskIntoConstraints="NO" id="bab-sy-Scm">
+                    <rect key="frame" x="0.0" y="16" width="32" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

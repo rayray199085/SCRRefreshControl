@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2F3FAF227E973C00FB45B7 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F3FA8227E973C00FB45B7 /* UIImageView+extension.swift */; };
+		0D2F3FB0227E973C00FB45B7 /* SCRAnimeRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F3FA9227E973C00FB45B7 /* SCRAnimeRefreshView.xib */; };
+		0D2F3FB1227E973C00FB45B7 /* SCRRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F3FAA227E973C00FB45B7 /* SCRRefreshView.swift */; };
+		0D2F3FB2227E973C00FB45B7 /* SCRRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F3FAB227E973C00FB45B7 /* SCRRefreshControl.swift */; };
+		0D2F3FB3227E973C00FB45B7 /* SCRAnimeRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F3FAC227E973C00FB45B7 /* SCRAnimeRefreshView.swift */; };
+		0D2F3FB4227E973C00FB45B7 /* SCRRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F3FAD227E973C00FB45B7 /* SCRRefreshView.xib */; };
+		0D2F3FB5227E973C00FB45B7 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F3FAE227E973C00FB45B7 /* Resources.bundle */; };
 		0DD35394227C55CB00AB37EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35393227C55CB00AB37EA /* AppDelegate.swift */; };
 		0DD35396227C55CB00AB37EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35395227C55CB00AB37EA /* ViewController.swift */; };
 		0DD35399227C55CB00AB37EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD35397227C55CB00AB37EA /* Main.storyboard */; };
@@ -14,11 +21,6 @@
 		0DD3539E227C55CC00AB37EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD3539C227C55CC00AB37EA /* LaunchScreen.storyboard */; };
 		0DD353A9227C55CC00AB37EA /* SCRRefreshControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353A8227C55CC00AB37EA /* SCRRefreshControlTests.swift */; };
 		0DD353B4227C55CC00AB37EA /* SCRRefreshControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD353B3227C55CC00AB37EA /* SCRRefreshControlUITests.swift */; };
-		0DD35424227C654500AB37EA /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3541F227C654500AB37EA /* UIImageView+extension.swift */; };
-		0DD35425227C654500AB37EA /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DD35420227C654500AB37EA /* Resources.bundle */; };
-		0DD35426227C654500AB37EA /* SCRRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35421227C654500AB37EA /* SCRRefreshView.swift */; };
-		0DD35427227C654500AB37EA /* SCRRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD35422227C654500AB37EA /* SCRRefreshControl.swift */; };
-		0DD35428227C654500AB37EA /* SCRRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD35423227C654500AB37EA /* SCRRefreshView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2F3FA8227E973C00FB45B7 /* UIImageView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
+		0D2F3FA9227E973C00FB45B7 /* SCRAnimeRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRAnimeRefreshView.xib; sourceTree = "<group>"; };
+		0D2F3FAA227E973C00FB45B7 /* SCRRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRRefreshView.swift; sourceTree = "<group>"; };
+		0D2F3FAB227E973C00FB45B7 /* SCRRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRRefreshControl.swift; sourceTree = "<group>"; };
+		0D2F3FAC227E973C00FB45B7 /* SCRAnimeRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRAnimeRefreshView.swift; sourceTree = "<group>"; };
+		0D2F3FAD227E973C00FB45B7 /* SCRRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRRefreshView.xib; sourceTree = "<group>"; };
+		0D2F3FAE227E973C00FB45B7 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
 		0DD35390227C55CB00AB37EA /* SCRRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCRRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD35393227C55CB00AB37EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DD35395227C55CB00AB37EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,11 +61,6 @@
 		0DD353AF227C55CC00AB37EA /* SCRRefreshControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCRRefreshControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD353B3227C55CC00AB37EA /* SCRRefreshControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCRRefreshControlUITests.swift; sourceTree = "<group>"; };
 		0DD353B5227C55CC00AB37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DD3541F227C654500AB37EA /* UIImageView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
-		0DD35420227C654500AB37EA /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
-		0DD35421227C654500AB37EA /* SCRRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRRefreshView.swift; sourceTree = "<group>"; };
-		0DD35422227C654500AB37EA /* SCRRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRRefreshControl.swift; sourceTree = "<group>"; };
-		0DD35423227C654500AB37EA /* SCRRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCRRefreshView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2F3FA7227E973C00FB45B7 /* MyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F3FA8227E973C00FB45B7 /* UIImageView+extension.swift */,
+				0D2F3FA9227E973C00FB45B7 /* SCRAnimeRefreshView.xib */,
+				0D2F3FAA227E973C00FB45B7 /* SCRRefreshView.swift */,
+				0D2F3FAB227E973C00FB45B7 /* SCRRefreshControl.swift */,
+				0D2F3FAC227E973C00FB45B7 /* SCRAnimeRefreshView.swift */,
+				0D2F3FAD227E973C00FB45B7 /* SCRRefreshView.xib */,
+				0D2F3FAE227E973C00FB45B7 /* Resources.bundle */,
+			);
+			path = MyFrame;
+			sourceTree = SOURCE_ROOT;
+		};
 		0DD35387227C55CA00AB37EA = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +125,7 @@
 		0DD35392227C55CB00AB37EA /* SCRRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
-				0DD353C4227C591A00AB37EA /* MyFrame */,
+				0D2F3FA7227E973C00FB45B7 /* MyFrame */,
 				0DD35393227C55CB00AB37EA /* AppDelegate.swift */,
 				0DD35395227C55CB00AB37EA /* ViewController.swift */,
 				0DD35397227C55CB00AB37EA /* Main.storyboard */,
@@ -135,18 +153,6 @@
 			);
 			path = SCRRefreshControlUITests;
 			sourceTree = "<group>";
-		};
-		0DD353C4227C591A00AB37EA /* MyFrame */ = {
-			isa = PBXGroup;
-			children = (
-				0DD35422227C654500AB37EA /* SCRRefreshControl.swift */,
-				0DD35423227C654500AB37EA /* SCRRefreshView.xib */,
-				0DD35421227C654500AB37EA /* SCRRefreshView.swift */,
-				0DD3541F227C654500AB37EA /* UIImageView+extension.swift */,
-				0DD35420227C654500AB37EA /* Resources.bundle */,
-			);
-			path = MyFrame;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -252,11 +258,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD35428227C654500AB37EA /* SCRRefreshView.xib in Resources */,
+				0D2F3FB0227E973C00FB45B7 /* SCRAnimeRefreshView.xib in Resources */,
+				0D2F3FB5227E973C00FB45B7 /* Resources.bundle in Resources */,
 				0DD3539E227C55CC00AB37EA /* LaunchScreen.storyboard in Resources */,
+				0D2F3FB4227E973C00FB45B7 /* SCRRefreshView.xib in Resources */,
 				0DD3539B227C55CC00AB37EA /* Assets.xcassets in Resources */,
 				0DD35399227C55CB00AB37EA /* Main.storyboard in Resources */,
-				0DD35425227C654500AB37EA /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2F3FB2227E973C00FB45B7 /* SCRRefreshControl.swift in Sources */,
 				0DD35396227C55CB00AB37EA /* ViewController.swift in Sources */,
-				0DD35424227C654500AB37EA /* UIImageView+extension.swift in Sources */,
-				0DD35427227C654500AB37EA /* SCRRefreshControl.swift in Sources */,
-				0DD35426227C654500AB37EA /* SCRRefreshView.swift in Sources */,
+				0D2F3FB3227E973C00FB45B7 /* SCRAnimeRefreshView.swift in Sources */,
+				0D2F3FB1227E973C00FB45B7 /* SCRRefreshView.swift in Sources */,
+				0D2F3FAF227E973C00FB45B7 /* UIImageView+extension.swift in Sources */,
 				0DD35394227C55CB00AB37EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

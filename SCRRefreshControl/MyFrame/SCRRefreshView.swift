@@ -9,24 +9,46 @@
 import UIKit
 
 class SCRRefreshView: UIView {
-    @IBOutlet weak var arrowImageView: UIImageView!
-    @IBOutlet weak var hintLabel: UILabel!
-    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var arrowImageView: UIImageView?
+    @IBOutlet weak var hintLabel: UILabel?
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView?
+    
+    var refreshControlViewHeight: CGFloat = 0
+    /// get resource bundle
+    var resourceBundle: Bundle?{
+        guard let bundlePath = Bundle(for: SCRAnimeRefreshView.self).path(forResource: "Resources", ofType: "bundle"),
+            let bundle = Bundle(path: bundlePath) else{
+                return nil
+        }
+        return bundle
+    }
+    
+    /// load image from resource bundle
+    ///
+    /// - Parameter imageName: image file name
+    /// - Returns: UIImage?
+    func loadImage(imageName: String)->UIImage?{
+        guard let imagePath = resourceBundle?.path(forResource: imageName, ofType: "png", inDirectory: "images") else{
+            return nil
+        }
+        return UIImage(contentsOfFile: imagePath)
+    }
+    
     var refreshState: SCRefreshState = .normal{
         didSet{
             switch refreshState {
             case .normal:
-                hintLabel.text = "Pull down"
-                loadingIndicator.stopAnimating()
-                arrowImageView.isHidden = false
-                arrowImageView.rotateVertically(reset: true)
+                hintLabel?.text = "Pull down"
+                loadingIndicator?.stopAnimating()
+                arrowImageView?.isHidden = false
+                arrowImageView?.rotateVertically(reset: true)
             case .pulling:
-                hintLabel.text = "Release"
-                arrowImageView.rotateVertically(angle: Double.pi, reset: false)
+                hintLabel?.text = "Release"
+                arrowImageView?.rotateVertically(angle: Double.pi, reset: false)
             case .willRefresh:
-                hintLabel.text = "Loading"
-                arrowImageView.isHidden = true
-                loadingIndicator.startAnimating()
+                hintLabel?.text = "Loading"
+                arrowImageView?.isHidden = true
+                loadingIndicator?.startAnimating()
             }
         }
     }
@@ -37,14 +59,7 @@ class SCRRefreshView: UIView {
         return v
     }
     override func awakeFromNib() {
-        let frameworkBundle = Bundle(for: SCRRefreshView.self)
-        guard let bundlePath = frameworkBundle.path(forResource: "Resources", ofType: "bundle", inDirectory: nil),
-              let bundle = Bundle(path: bundlePath),
-              let imagePath = bundle.path(forResource: "tableview_pull_refresh@2x", ofType: "png", inDirectory: "images") else{
-            return
-        }
-        arrowImageView.image = UIImage(contentsOfFile: imagePath)
-        arrowImageView.sizeToFit()
+        arrowImageView?.image = loadImage(imageName: "tableview_pull_refresh@2x")
     }
 }
 

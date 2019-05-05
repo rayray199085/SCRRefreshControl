@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    lazy var refreshControl = SCRRefreshControl()
+    lazy var refreshControl = SCRRefreshControl(style: .simple)
     override func viewDidLoad() {
         super.viewDidLoad()
         
