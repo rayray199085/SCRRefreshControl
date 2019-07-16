@@ -93,8 +93,9 @@ public class SCRRefreshControl: UIControl {
         if refreshView!.refreshState == .willRefresh{
             return
         }
-        sv.contentInset = UIEdgeInsets(top: refreshOffset, left: 0, bottom: 0, right: 0)
         refreshView!.refreshState = .willRefresh
+        sv.contentInset = UIEdgeInsets(top: refreshOffset, left: 0, bottom: 0, right: 0)
+        
     }
 
     // Must be explicitly called when the refreshing has completed
@@ -105,8 +106,8 @@ public class SCRRefreshControl: UIControl {
         if refreshView!.refreshState != .willRefresh{
             return
         }
-        refreshView!.refreshState = .normal
         sv.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        refreshView!.refreshState = .normal
     }
 }
 

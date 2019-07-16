@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SCRRefreshControl"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "Custom Refresh Control"
   spec.homepage     = "https://github.com/rayray199085/SCRRefreshControl"
   spec.license      = "MIT"

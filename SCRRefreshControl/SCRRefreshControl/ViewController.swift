@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         loadData()
     }
     @objc private func loadData(){
+        print("sssss")
         refreshControl.beginRefreshing()
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2.0) {
             self.refreshControl.endRefreshing()
